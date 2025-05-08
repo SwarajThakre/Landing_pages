@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Paris, France",
+    "image": "https://images.pexels.com/photos/2344/cars-france-landmark-lights.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "rating": 4.8,
+    "price": 1200,
+    "tours": 7,
+    "description": "The city of love and lights, with iconic landmarks like the Eiffel Tower and Louvre Museum."
+  },
+  {
+    "id": 2,
+    "name": "Rome, Italy",
+    "image": "https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "rating": 4.7,
+    "price": 1100,
+    "tours": 5,
+    "description": "Explore ancient history at the Colosseum and Vatican City's stunning architecture."
+  },
+  {
+    "id": 3,
+    "name": "Tokyo, Japan",
+    "image": "https://images.pexels.com/photos/248195/pexels-photo-248195.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.9,
+    "price": 1800,
+    "tours": 9,
+    "description": "A vibrant blend of traditional culture and cutting-edge technology."
+  },
+  {
+    "id": 4,
+    "name": "New York, USA",
+    "image": "https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.6,
+    "price": 1500,
+    "tours": 12,
+    "description": "The city that never sleeps, with iconic sights like Times Square and Central Park."
+  },
+  {
+    "id": 5,
+    "name": "Sydney, Australia",
+    "image": "https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.5,
+    "price": 1300,
+    "tours": 8,
+    "description": "A tropical paradise with iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+  },
+  {
+    "id": 6,
+    "name": "London, UK",
+    "image": "https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.9,
+    "price": 1100,
+    "tours": 6,
+    "description": "The city of iconic landmarks, including the Big Ben clock tower and Buckingham Palace."
+  }
+]

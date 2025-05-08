@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanderlust | Premium Travel Experiences</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Wander<span>lust</span></a>
+      <div id="mobile-menu-btn" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source
+            src="assets/videos/6749364-hd_1920_1080_24fps.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container">
+          <h1>Discover Your Next Adventure</h1>
+          <p class="subtitle">
+            Explore the world's most breathtaking destinations with our expert
+            guides
+          </p>
+
+          <div class="search-box">
+            <div class="search-input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Where do you want to go?" />
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+
+          <div class="hero-stats">
+            <p>or browse the selected type</p>
+          </div>
+          <div class="transparent-btn">
+            <button type="submit" class="btn btn-outline-white">
+              <i class="fas fa-mountain"></i> Adventure
+            </button>
+            <button type="submit" class="btn btn-outline-white">
+              <i class="fas fa-sun"></i> Beach
+            </button>
+            <button type="submit" class="btn btn-outline-white">
+              <i class="fas fa-globe"></i> Culture
+            </button>
+            <button type="submit" class="btn btn-outline-white">
+              <i class="fas fa-tree"></i> Family
+            </button>
+            <button type="submit" class="btn btn-outline-white">
+              <i class="fas fa-utensils"></i> Food
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section destinations">
+      <div class="container">
+        <div class="section-header">
+          <h2>Popular Destinations</h2>
+          <p>Explore our most booked destinations this season</p>
+        </div>
+
+        <div class="destinations-grid" id="destinations-container">
+          <!-- Dynamic content will be loaded here -->
+        </div>
+
+        <div class="text-center">
+          <button id="load-more" class="btn btn-outline">Load More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section activities">
+      <div class="section-header">
+        <h2>Activities</h2>
+        <p>Experience the thrill of adventure with our curated activities</p>
+      </div>
+      <div class="activity-container">
+        <div class="activities-header-container">
+          <div class="activities-header">
+            <h3>Popular things to do</h3>
+            <p>
+              Choose from a wide range of activities to explore the world around
+              you.
+            </p>
+          </div>
+          <button type="submit" class="btn btn-outline">see all</button>
+        </div>
+
+        <div class="activities-grid" id="activities-container">
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="card-content">
+              <h4>City Tour</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-ferry"></i>
+            </div>
+            <div class="card-content">
+              <h4>Day Cruise</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-bus"></i>
+            </div>
+            <div class="card-content">
+              <h4>Bus Tour</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-umbrella-beach"></i>
+            </div>
+            <div class="card-content">
+              <h4>Beach Tour</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-bank"></i>
+            </div>
+            <div class="card-content">
+              <h4>Culture Tour</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div class="card-image">
+              <i class="fas fa-martini-glass"></i>
+            </div>
+            <div class="card-content">
+              <h4>Food Tour</h4>
+              <p>100+ Tours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section packages">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Packages</h2>
+          <p>Curated travel experiences for every type of adventurer</p>
+        </div>
+
+        <div class="carousel-wrapper">
+          <button class="nav-btn nav-left" onclick="scrollPackagesLeft()">
+            &#8592;
+          </button>
+
+          <div class="packages-scrollable" id="packages-scrollable">
+            <div class="packages-grid" id="packages-container">
+              <!-- Dynamic content will be loaded here -->
+            </div>
+          </div>
+
+          <button class="nav-btn nav-right" onclick="scrollRight()">
+            &#8594;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>Traveler Stories</h2>
+          <p>What our customers say about their experiences</p>
+        </div>
+
+        <div class="testimonials-slider" id="testimonials-container">
+          <!-- Dynamic content will be loaded here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready for Your Next Adventure?</h2>
+          <p>Sign up now and get 15% off your first booking</p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Wanderlust</h3>
+            <p>
+              Making travel dreams come true since 1996. We specialize in
+              creating unforgettable travel experiences around the globe.
+            </p>
+            <div class="social-links">
+              <a title="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a title="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+              <a title="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+              <a title="YouTube" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#packages">Packages</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Get in Touch</a></li>
+              <li><a href="#">Live Chat</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Booking Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Travel St, Adventure
+                City
+              </li>
+              <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+              <li><i class="fas fa-envelope"></i> info@wanderlust.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 Wanderlust. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data-loader.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

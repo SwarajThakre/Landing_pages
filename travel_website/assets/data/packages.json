@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "European Adventure",
+    "image": "https://images.pexels.com/photos/547494/pexels-photo-547494.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "duration": "14 Days",
+    "location": "Multiple Countries",
+    "price": 2999,
+    "description": "Explore 5 countries in 2 weeks with our expert guides.",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "Asian Explorer",
+    "image": "https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "duration": "21 Days",
+    "location": "Multiple Countries",
+    "price": 3499,
+    "description": "Discover the rich cultures and cuisines of Southeast Asia."
+  },
+  {
+    "id": 3,
+    "name": "Antarctica Explorer",
+    "image": "https://images.pexels.com/photos/20433330/pexels-photo-20433330/free-photo-of-sea-coast-in-winter.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "duration": "21 Days",
+    "location": "Multiple Countries",
+    "price": 5099,
+    "description": "Experience the breathtaking landscapes and wildlife of Antarctica."
+  },
+  {
+    "id": 4,
+    "name": "African Explorer",
+    "image": "https://images.pexels.com/photos/7731450/pexels-photo-7731450.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "duration": "21 Days",
+    "location": "Multiple Countries",
+    "price": 3099,
+    "description": "Discover the diverse landscapes, cultures and wildlife  of Africa."
+  }
+]

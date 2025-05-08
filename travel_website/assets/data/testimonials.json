@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "location": "London, UK",
+    "rating": 5,
+    "comment": "The European tour was absolutely amazing! Our guide was knowledgeable and made the experience unforgettable."
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "avatar": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "location": "Toronto, Canada",
+    "rating": 4,
+    "comment": "Great service and well-organized itineraries. Will definitely book with Wanderlust again."
+  }
+]
