@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McDonald's - Burgers, Fries & More</title>
+    <meta name="description" content="Order your favorite McDonald's meals" />
+    <meta name="keywords" content="McDonald's, fast food, burgers, fries" />
+    <meta name="author" content="McDonald's Clone" />
+    <link
+      rel="icon"
+      href="./assets/images/arches-logo_108x108.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/arches-logo_108x108.jpg"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+      <p>
+        Get exclusive deals on the McDonald's App! <a href="#">Download Now</a>
+      </p>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-container">
+          <a href="index.html">
+            <img
+              src="./assets/images/arches-logo_108x108.jpg"
+              alt="McDonald's Logo"
+              class="logo"
+            />
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="nav-links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">Locate</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn order-btn">Order Now</button>
+          <button title="Search" class="btn-icon search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="btn-icon cart-btn">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <button title="Menu" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-header">
+        <button title="Close Menu" class="close-menu">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Rewards</a></li>
+        <li><a href="#">Locate</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>New Spicy McCrispy</h1>
+        <p>
+          Try our new spicy chicken sandwich with a crispy coating and juicy
+          white meat
+        </p>
+        <button class="btn btn-large">Order Now</button>
+      </div>
+    </section>
+
+    <!-- Featured Items -->
+    <section class="featured-items">
+      <h2 class="section-title">Our Favorites</h2>
+      <div class="items-grid" id="featured-items">
+        <!-- Items will be loaded via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals-section">
+      <div class="section-header">
+        <h2 class="section-title">Exclusive Deals</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+      <div class="deals-carousel">
+        <div class="deal-card">
+          <div class="deal-badge">Limited Time</div>
+          <img src="assets/images/medium.jpeg" alt="Free Fries Deal" />
+          <div class="deal-info">
+            <h3>Free Medium Fries</h3>
+            <p>With any $1 purchase in the app</p>
+            <button class="btn btn-outline">Get Deal</button>
+          </div>
+        </div>
+        <div class="deal-card">
+          <img src="assets/images/deal-2.webp" alt="Happy Meal Deal" />
+          <div class="deal-info">
+            <h3>Happy Meal®</h3>
+            <p>Now with your choice of drink</p>
+            <button class="btn btn-outline">Get Deal</button>
+          </div>
+        </div>
+        <div class="deal-card">
+          <div class="deal-badge">New</div>
+          <img src="assets/images/deal-3.jpeg" alt="McCafe Deal" />
+          <div class="deal-info">
+            <h3>$2 McCafé</h3>
+            <p>Any size hot or iced coffee</p>
+            <button class="btn btn-outline">Get Deal</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Section -->
+    <section class="app-section">
+      <div class="app-content">
+        <h2>Get McDonald's Delivered</h2>
+        <p>Download our app to get exclusive deals and easy ordering</p>
+        <div class="app-buttons">
+          <a href="#" class="app-btn">
+            <img
+              src="assets/images/pngwing.com (1).png"
+              alt="Download on the App Store"
+            />
+          </a>
+          <a href="#" class="app-btn">
+            <img
+              src="assets/images/pngwing.com.png"
+              alt="Get it on Google Play"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="app-image">
+        <img src="assets/images/mcdapp.png" alt="McDonald's App" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="#">Our History</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Values In Action</a></li>
+              <li><a href="#">Franchise Info</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Careers</h3>
+            <ul>
+              <li><a href="#">Education Opportunities</a></li>
+              <li><a href="#">Employee Perks</a></li>
+              <li><a href="#">Meet Our People</a></li>
+              <li><a href="#">Apply Now</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Wi-Fi</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">PlayPlaces</a></li>
+              <li><a href="#">McDelivery®</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><a href="#">Restaurant Feedback</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Cookie Settings</a>
+          </div>
+          <div class="copyright">
+            <p>
+              &copy; <span id="year"></span> McDonald's. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
