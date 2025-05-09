@@ -47,14 +47,26 @@ p {
 .nav-logo {
   height: 50px;
   width: 113px;
+  padding: 9px 0 0 0;
 }
 
 .logo {
-  background-image: url('./assets/images/1688364164amazon-logo-transparent-98x34.png');
-  height: 50px;
-  width: 113px;
-  color: white;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 1px 8px 0 8px;
+  margin: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1px;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid #f3f3f3;
 }
