@@ -21,54 +21,93 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="nav-logo border">
-          <a class="logo" href="index.html">
-            <img src="./assets/images/AMZN_BIG.D (1).svg" alt="Amazon Logo" />
-          </a>
-        </div>
-
-        <div class="nav-address border">
-          <i class="fas fa-location-dot"></i>
-          <div class="address">
-            <span class="address-text">Deliver to</span>
-            <span class="address-location">India</span>
+        <div class="nav-left">
+          <div class="nav-logo border">
+            <a href="index.html">
+              <img src="./assets/images/AMZN_BIG.D (1).svg" alt="Amazon Logo" />
+            </a>
+          </div>
+          <div class="nav-location border">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="location-text">
+              <span class="deliver-to">Deliver to</span>
+              <span class="location">India</span>
+            </div>
           </div>
         </div>
 
-        <div class="nav-search">
-          <select
-            class="search-select"
-            aria-label="Search Select"
-            name="search"
-          >
-            <option value="all">All</option>
-            <option value="books">Books</option>
-            <option value="electronics">Electronics</option>
-            <option value="clothing">Clothing</option>
-          </select>
-          <input
-            type="text"
-            class="search-input"
-            placeholder="Search Amazon.in"
-            aria-label="Search Input"
-          />
-          <div class="search-icon">
-            <i class="fas fa-search"></i>
+        <div class="nav-mid">
+          <div class="nav-search">
+            <select class="search-select" aria-label="search" id="search">
+              <option value="all">All</option>
+              <option value="books">Books</option>
+              <option value="electronics">Electronics</option>
+              <option value="clothing">Clothing</option>
+            </select>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search Amazon.in"
+              aria-label="search"
+            />
+            <div class="search-button">
+              <i class="fas fa-search"></i>
+            </div>
           </div>
         </div>
 
-        <div class="lang-switch">
-          <div class="lang-icon">
+        <div class="nav-right">
+          <div class="nav-lang-select border">
             <i class="fas fa-globe"></i>
+            <span class="lang">EN</span>
           </div>
-          <div class="lang-text">EN</div>
+          <div class="nav-acc border">
+            <span class="acc">Hello, sign in</span>
+            <span class="account">Account & Lists</span>
+          </div>
+          <div class="nav-orders border">
+            <span class="return">Returns</span>
+            <span class="ord">& Orders</span>
+          </div>
+          <div class="nav-cart border">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart">Cart</span>
+          </div>
         </div>
-
-        <div class="nav-sign-in">
-          <div class="nav-signin-text">Hello, Sign in</div>
-          <div class="nav-account">Accounts & Lists</div>
+      </div>
+      <div class="nav-bottom">
+        <div class="nav-bottom-left border">
+          <i class="fas fa-bars"></i>
+          <span class="all">All</span>
+        </div>
+        <div class="nav-bottom-right">
+          <span class="amazon border">Amazon Business</span>
+          <span class="amazon border">Today's Deals</span>
+          <span class="amazon border">Customer Service</span>
+          <span class="amazon border">Registry</span>
+          <span class="amazon border">Gift Cards</span>
+          <span class="amazon border">Sell</span>
         </div>
       </div>
     </header>
+
+    <div class="hero-section">
+      <div class="hero-text">
+        <span>
+          You are on Amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.
+        </span>
+        <a href="#">Click here to go to Amazon.in</a>
+      </div>
+    </div>
+
+    <div class="shop-section grid">
+      <div class="shop1 box"></div>
+      <div class="shop2 box"></div>
+      <div class="shop3 box"></div>
+      <div class="shop4 box"></div>
+      <div class="shop5 box"></div>
+      <div class="shop6 box"></div>
+    </div>
   </body>
 </html>
