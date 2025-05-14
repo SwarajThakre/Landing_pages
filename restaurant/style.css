@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f3f3;
+  overflow-x: hidden;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5rem;
+  gap: 2rem;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav ul li a:hover {
+  color: green;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  text-align: center;
+  padding: 0 180px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.btn-offer {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+}
+
+.info-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.info-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.btn-explore {
+  padding: 10px 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: transparent;
+  color: green;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.all-info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0 180px;
+  margin: 0 4rem;
+}
+
+.all-other-info {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.text h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  line-height: 19px;
+}
+
+.text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  line-height: 19px;
+  letter-spacing: 3%;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.menu-header {
+  text-align: center;
+  gap: 2rem;
+}
+
+.menu-header span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: green;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.menu-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-top: 2.5rem;
+}
+
+.grid {
+  display: grid;
+  margin: 5rem;
+  gap: 30px;
+  grid-template-areas:
+    'T1 T1 T2 T3'
+    'T1 T1 T2 T7'
+    'T4 T5 T6 T7';
+}
+
+.grid1 {
+  grid-area: T1;
+}
+
+.grid2 {
+  grid-area: T2;
+}
+
+.grid3 {
+  grid-area: T3;
+}
+
+.grid4 {
+  grid-area: T4;
+}
+
+.grid5 {
+  grid-area: T5;
+}
+
+.grid6 {
+  grid-area: T6;
+}
+
+.grid7 {
+  grid-area: T7;
+}
+
+#contact {
+  background-color: #fff0db;
+  color: #333;
+  padding: 2.5rem;
+  height: 332px;
+  gap: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem;
+  gap: 2rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.footer-col ul li {
+  list-style: none;
+  margin: 4px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-col form input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-col form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-col .social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-col .social-icons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer-col .social-icons a:hover {
+  color: green;
+}
+
+.footer-col .social-icons a i {
+  transition: all 0.3s ease;
+}
+
+.footer-col .social-icons a i:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
