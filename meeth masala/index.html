@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeth Masala - Cloud Kitchen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/meeth_masala-removebg-preview-200x100.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header with Language Toggle -->
+    <header>
+      <div class="header-container">
+        <img
+          src="images/meeth_masala-removebg-preview-200x100.png"
+          alt="Logo"
+        />
+        <nav>
+          <ul>
+            <li><a href="#home" data-i18n="home">Home</a></li>
+            <li><a href="#about" data-i18n="about">About</a></li>
+            <li><a href="#menu" data-i18n="menu">Menu</a></li>
+            <li><a href="#features" data-i18n="features">Features</a></li>
+            <li><a href="#contact" data-i18n="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="lang-switch">
+          <button id="lang-toggle" aria-label="Toggle language">EN/MR</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <h1 data-i18n="hero-title">
+          Authentic Flavors Delivered to Your Doorstep
+        </h1>
+        <p data-i18n="hero-sub">
+          Experience the taste of home with our cloud kitchen specialties
+        </p>
+        <a href="#menu" class="btn" data-i18n="order-now">Order Now</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 data-i18n="about-title">Our Story</h2>
+            <p data-i18n="about-text1">
+              Founded in 2020, Meeth Masala brings authentic regional flavors
+              through our cloud kitchen model.
+            </p>
+            <p data-i18n="about-text2">
+              Our chefs combine traditional recipes with modern techniques to
+              create memorable dining experiences.
+            </p>
+            <ul class="about-list">
+              <li data-i18n="about-list1">100% Fresh Ingredients</li>
+              <li data-i18n="about-list2">Hygienic Preparation</li>
+              <li data-i18n="about-list3">Quick Delivery</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="images/OIP (1).jpeg" alt="Kitchen interior" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 data-i18n="features-title">Why Choose Us</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-bolt"></i>
+            <h3 data-i18n="feature1-title">Quick Delivery</h3>
+            <p data-i18n="feature1-text">
+              Average delivery time under 30 minutes
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-utensils"></i>
+            <h3 data-i18n="feature2-title">Diverse Menu</h3>
+            <p data-i18n="feature2-text">100+ dishes from various cuisines</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-leaf"></i>
+            <h3 data-i18n="feature3-title">Fresh Ingredients</h3>
+            <p data-i18n="feature3-text">Locally sourced, daily prepared</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2 data-i18n="menu-title">Our Specialties</h2>
+        <div class="menu-tabs">
+          <button
+            class="tab-btn active"
+            data-category="all"
+            data-i18n="menu-all"
+          >
+            All
+          </button>
+          <button class="tab-btn" data-category="veg" data-i18n="menu-veg">
+            Vegetarian
+          </button>
+          <button
+            class="tab-btn"
+            data-category="nonveg"
+            data-i18n="menu-nonveg"
+          >
+            Non-Vegetarian
+          </button>
+        </div>
+        <div class="menu-grid">
+          <!-- Menu items will be populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 data-i18n="contact-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-i18n="contact-info">Contact Information</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="contact-address">Mumbai, Maharashtra</span>
+            </p>
+            <p><i class="fas fa-phone"></i> <span>+91 9876543210</span></p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <span>contact@meethmasala.in</span>
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <input
+                type="text"
+                placeholder="Name"
+                data-i18n-ph="name-ph"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                data-i18n-ph="email-ph"
+                required
+              />
+              <input type="tel" placeholder="Phone" data-i18n-ph="phone-ph" />
+              <textarea
+                placeholder="Message"
+                data-i18n-ph="message-ph"
+                required
+              ></textarea>
+              <button type="submit" class="btn" data-i18n="submit-btn">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3 data-i18n="footer-title">Meeth Masala</h3>
+            <p data-i18n="footer-about">
+              Cloud kitchen delivering authentic flavors across the city.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h3 data-i18n="quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="#home" data-i18n="home">Home</a></li>
+              <li><a href="#menu" data-i18n="menu">Menu</a></li>
+              <li><a href="#contact" data-i18n="contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 data-i18n="opening-hours">Opening Hours</h3>
+            <p data-i18n="hours-weekdays">Mon-Fri: 10AM - 10PM</p>
+            <p data-i18n="hours-weekend">Sat-Sun: 11AM - 11PM</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p data-i18n="copyright">
+            &copy; 2023 Meeth Masala. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
